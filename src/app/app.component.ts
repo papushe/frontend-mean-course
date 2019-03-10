@@ -16,7 +16,7 @@ export class AppComponent implements OnInit {
   
    onParentFunctionClick() {
         //TODO document root parent
-        window.parent.callParentFunction(document.getElementById("name").value);
+        window.parent.callParentFunction("PAPUSHE");
     }
   
 }
