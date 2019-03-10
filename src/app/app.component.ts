@@ -13,4 +13,10 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
     this.authService.autoAuthUser();
   }
+  
+   onParentFunctionClick() {
+        //TODO document root parent
+        window.parent.callParentFunction(document.getElementById("name").value);
+    }
+  
 }
