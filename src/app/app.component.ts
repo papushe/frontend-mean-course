@@ -12,7 +12,13 @@ export class AppComponent implements OnInit {
 
   ngOnInit(): void {
     this.authService.autoAuthUser();
+    window["papushe"] = this.ALERT;
+     
+    
   }
   
+  ALERT(){
+     alert('papushe')
+  }
   
 }
