@@ -14,9 +14,5 @@ export class AppComponent implements OnInit {
     this.authService.autoAuthUser();
   }
   
-   onParentFunctionClick() {
-        //TODO document root parent
-        window.parent.callParentFunction("PAPUSHE");
-    }
   
 }
